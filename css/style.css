@@ -35,7 +35,7 @@ p{
 	letter-spacing:2px;
 	line-height:20px;
 }
-.pad-10,p{
+.pad-10,p,.my_brand{
 	padding:10px;
 }
 /* //main+banner_div && Layer div */
@@ -177,7 +177,12 @@ span{
 		color:white;
 	}
 	
-
+.key{
+	       box-shadow: 3px 9px 16px -2px #80808030;
+    border: 1px solid rgb(216 76 119);
+    border-radius: 28px;
+    margin: 10px 0px;
+}
 @media(max-width:1200px) {
 	img{
 		width: 100%;
@@ -250,6 +255,7 @@ span{
     border-radius: 17px;
     box-shadow: 3px 13px 11px 3px #80808040;
     color: rgb(255 255 255);
+    z-index: 99999999999;
 	}
 	.mytab_product{
 		    background: rgb(128 128 128 / 17%);
